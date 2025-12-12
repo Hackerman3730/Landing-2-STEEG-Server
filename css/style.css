@@ -666,7 +666,7 @@ footer a:hover {
   margin: auto;
 }
 
-.proceso-card {
+g.proceso-card {
   background: #0f172a;
   padding: 30px 20px;
   border-radius: 14px;
@@ -758,36 +758,79 @@ footer a:hover {
   margin-top: 20px;
 }
 
-.cta-section .cta-text {
-  font-size: 1.3em;
-  max-width: 800px;
-  margin: 0 auto 20px auto;
+.cta-final {
+  background: linear-gradient(135deg, #0f172a, #1e293b);
   color: #ffffff;
+  padding: 60px 20px;
+  border-radius: 10px;
 }
 
-.cta-section .cta-divider {
-  border: 0;
-  height: 3px;
-  width: 80%;
-  max-width: 800px;
-  /* mantiene el límite en pantallas grandes */
-  background: #ffffff;
-  margin: 20px auto;
-  opacity: 1;
-  display: block;
+.cta-final h2 {
+  font-size: 2.5em;
+  margin-bottom: 15px;
 }
 
-
-.cta-section .cta-subtext {
+.cta-final p {
   font-size: 1.2em;
-  color: #ffffff;
-  margin-bottom: 25px;
+  color: #cbd5e1;
+  margin-bottom: 30px;
 }
 
-.cta-section .cta-container {
-  margin-top: 10px;
-  /* reduce distancia con el texto */
+.cta-buttons .btn {
+  padding: 15px 30px;
+  font-size: 1.1em;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  text-decoration: none;
 }
+
+.btn-whatsapp {
+  background: #25d366;
+  color: #fff;
+}
+
+.btn-whatsapp:hover {
+  background: #1ebe5d;
+  transform: scale(1.05);
+}
+
+.btn-llamar {
+  background: #2563eb;
+  color: #fff;
+}
+
+.btn-llamar:hover {
+  background: #1b4bbf;
+  transform: scale(1.05);
+}
+
+.btn-cotizacion {
+  background: #f97316;
+  color: #fff;
+}
+
+.btn-cotizacion:hover {
+  background: #d65c00;
+  transform: scale(1.05);
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .cta-final h2 {
+    font-size: 2em;
+  }
+
+  .cta-final p {
+    font-size: 1em;
+  }
+
+  .cta-buttons .btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+
 
 .footer {
   background: #0f172a;
