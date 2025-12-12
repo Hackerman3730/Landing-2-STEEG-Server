@@ -469,6 +469,57 @@ footer a:hover {
   background: #1e40af;
 }
 
+.tecnologia-accesorios {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.titulo-seccion {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subtitulo-seccion {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.galeria-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.galeria-item {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #00ffea25;
+  transition: 0.3s;
+}
+
+.galeria-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.08);
+}
+
+.galeria-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.galeria-item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
 
 /* Responsividad para tablets */
 @media (max-width: 900px) {
