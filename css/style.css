@@ -618,6 +618,41 @@ footer a:hover {
   }
 }
 
+.testimonios-section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.testimonial-card {
+  background: #0f172a;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  border: 1px solid #e2e8f0;
+}
+
+.testimonial-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #2563eb;
+}
+
+.cliente-ubicacion {
+  font-size: 14px;
+  color: #ffffff;
+  margin-top: -4px;
+}
+
+.testimonial-text {
+  margin-top: 12px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
 
 /* ===== Sección de testimonios ===== */
 .testimonials-section {
